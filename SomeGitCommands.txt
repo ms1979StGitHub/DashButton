@@ -1,0 +1,6 @@
+
+commit changes
+git commit -a -m "MESSAGE"
+
+push changes to repo
+git push -u origin master
