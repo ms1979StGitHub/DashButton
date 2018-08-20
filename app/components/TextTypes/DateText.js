@@ -13,7 +13,7 @@ const DateText = (props) => {
     return (
 
         <Text>
-            Date {baseDateText} was converted to {targetDateText} to nice format {moment(convertedDate).format('dd.MM.YYYY')}
+            Date {baseDateText} was converted to {targetDateText} to format {moment(convertedDate).format('dd.MM.YYYY')}
             </Text>
 
     );
